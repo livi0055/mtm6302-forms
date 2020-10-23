@@ -37,6 +37,8 @@ function addForm(type){
 
     })
 
+    let $form = document.getElementById('thank-you-form')
+
     document.getElementById('invitation').addEventListener('click', function(){
         addForm('invitaion')
     })
